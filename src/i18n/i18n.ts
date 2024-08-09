@@ -1,40 +1,30 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import HEADER_EN from '../locales/en/header.json'
+import HOME_EN from '../locales/en/home.json'
+import HEADER_VI from '../locales/vi/header.json'
+import HOME_VI from '../locales/vi/home.json'
 
 const resources = {
     en: {
-        translation: {
-            "service": "Service",
-            "news": "News",
-            "discount": "Discount",
-            "shopdunkCare": "Shopdunk Care",
-            "installmentPay": "Installment Pay",
-            "traceInSale": "Trace In Sale",
-            "simCard": "Sim Card",
-            "register": "Register",
-            "login": "Login",
-        }
+        home: HOME_EN,
+        header: HEADER_EN
     },
     vi: {
-        translation: {
-            "service": "Dịch Vụ",
-            "news": "Tin Tức",
-            "discount": "Khuyến Mại",
-            "shopdunkCare": "Bảo Hành Ủy Quyền Apple",
-            "installmentPay": "Trả Góp",
-            "traceInSale": "Thu cũ đổi mới",
-            "simCard": "Sim Thẻ",
-            "register": "Tạo Tài Khoản Ngay",
-            "login": "Đăng Nhập",
-        }
+        home: HOME_VI,
+        header: HEADER_VI
     }
 };
+
+const defaultNS = 'home'
 
 i18n
     .use(initReactI18next)
     .init({
         resources,
         lng: "vi",
+        ns: ['home', 'header'],
+        defaultNS,
         interpolation: {
             escapeValue: false
         }

@@ -1,0 +1,13 @@
+{
+    "header": {
+        "service": "Service",
+        "news": "News",
+        "discount": "Discount",
+        "shopdunkCare": "Shopdunk Care",
+        "installmentPay": "Installment Pay",
+        "traceInSale": "Trace In Sale",
+        "simCard": "Sim Card",
+        "register": "Register",
+        "login": "Login"
+    }
+}
