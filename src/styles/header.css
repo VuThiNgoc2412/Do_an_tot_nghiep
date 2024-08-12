@@ -130,6 +130,7 @@ button {
     left: 11%;
     transform: translateX(-50%);
     display: none;
+    z-index: 1;
 }
 
 

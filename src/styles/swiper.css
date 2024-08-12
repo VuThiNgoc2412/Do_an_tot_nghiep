@@ -1,0 +1,39 @@
+.swiper-button-prev:after {
+    font-size: 20px;
+    color: #454545;
+}
+
+.swiper-button-prev {
+    border-radius: 100% !important;
+    background-color: #d7d7d7;
+    height: 30px;
+    width: 30px;
+}
+
+.swiper-button-prev:hover {
+    background-color: #bcbcbc;
+}
+
+.swiper-button-prev:after:hover {
+    color: #1b1b1b;
+}
+
+.swiper-button-next:after {
+    font-size: 20px;
+    color: #454545;
+}
+
+.swiper-button-next {
+    border-radius: 100% !important;
+    background-color: #d7d7d7;
+    height: 30px;
+    width: 30px;
+}
+
+.swiper-button-next:hover {
+    background-color: #bcbcbc;
+}
+
+.swiper-button-next:after:hover {
+    color: #1b1b1b;
+}
