@@ -17,7 +17,7 @@
     display: none;
 }
 
-.home-content {
+.home-content-product {
     padding: 30px 0px;
 }
 
@@ -53,4 +53,96 @@
 .home-btn a:hover {
     background: #0066CC;
     color: #fff;
+}
+
+.baner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.arrow-icon {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 4px;
+}
+
+.home-news {
+    padding: 20px 20px 70px 20px;
+}
+
+.home-news-title {
+    text-align: center;
+}
+
+.home-news-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    padding: 30px 0px;
+}
+
+.heading_newletter {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #1D1D1F;
+    line-height: 36px;
+}
+
+.home-footer-letter p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #515154;
+    padding: 8px 0;
+    margin: 0;
+}
+
+.newsletter-email {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.newsletter-subscribe-text {
+    height: 40px;
+    border-radius: 40px 0 0 40px;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 10px 0 10px 24px;
+    color: #515154;
+    width: 100%;
+    border: unset;
+    max-width: 470px;
+    padding-left: 20px !important;
+}
+
+.newsletter-subscribe-button {
+    border-radius: 40px;
+    background: #0066CC;
+    font-size: 12px;
+    margin-left: -52px;
+    text-transform: none;
+    z-index: 2;
+    min-width: 100px;
+    padding: 0 5px;
+    height: 40px;
+    color: #fff;
+    font-family: var(--body-font);
+}
+
+.newsletter-subscribe-button:hover {
+    background-color: #258ecf;
+}
+
+.home-footer-letter {
+    padding: 50px 0px 70px 0px;
+    background-color: #f2f2f2;
 }

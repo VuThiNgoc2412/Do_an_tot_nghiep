@@ -1,0 +1,126 @@
+.footer {
+    background-color: #1d1d1f;
+    padding: 40px 20px;
+    color: #86868b;
+}
+
+.footer-upper {
+    border-bottom: 1px solid #515154;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    gap: 10px;
+    max-width: 1200px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow-us {
+    width: 360px;
+}
+
+.information {
+    width: 300px;
+}
+
+.customer-service {
+    width: 240px;
+}
+
+.my-account {
+    width: 300px;
+}
+
+.header-logo img {
+    max-width: 184px;
+    max-height: 48px;
+}
+
+.topic-block-body {
+    text-align: justify;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.ft_gioithieu {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #D2D2D7;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.social .networks {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-list li {
+    list-style-type: none;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: #86868b;
+    font-size: 13px;
+    line-height: 28px;
+}
+
+.footer-list a:hover {
+    text-decoration: underline;
+    color: #86868b;
+}
+
+.footer-title {
+    margin-bottom: 20px;
+}
+
+.footer-title strong {
+    margin-left: 32px;
+    color: #d2d2d7;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+
+
+.footer-lower {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-lower-container {
+    width: 1268px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-lower-content {
+    flex: 1;
+}
+
+.footer-lower-container li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 13px;
+    line-height: 20px;
+    color: #515154;
+}
+
+.footer-lower-container ul {
+    text-align: start;
+}
+
+.footer-lower-img img {
+    width: 139px;
+    margin-right: 35px;
+}

@@ -1,5 +1,16 @@
 {
     "home": {
-        "home": "Home"
+        "showAllIphone": "Show all iPhone",
+        "showAllIpad": "Show all iPad",
+        "showAllMac": "Show all Mac",
+        "showAllWatch": "Show all Watch",
+        "showAllAccessories ": "Show all Accessories",
+        "accessories": "Accessories",
+        "news": "News",
+        "viewNewsArchive": "View News Archive",
+        "signUpToReceiveNewsFromShopDunk": "Sign up to receive news from ShopDunk",
+        "latestProductInformationAndPromotions": "Latest Product And Sale",
+        "yourEmail": "Your email",
+        "signUp": "Sign Up"
     }
 }

@@ -1,5 +1,16 @@
 {
     "home": {
-        "home": "Trang Chủ"
+        "showAllIphone": "Xem tất cả iPhone",
+        "showAllIpad": "Xem tất cả iPad",
+        "showAllMac": "Xem tất cả Mac",
+        "showAllWatch": "Xem tất cả Watch",
+        "showAllAccessories ": "Xem tất cả phụ kiện",
+        "accessories": "Phụ kiện",
+        "news": "Tin tức",
+        "viewNewsArchive": "Xem tất cả tin tức",
+        "signUpToReceiveNewsFromShopDunk": "Đăng ký nhận tin từ ShopDunk",
+        "latestProductInformationAndPromotions": "Thông tin sản phẩm mới nhất và chương trình khuyến mãi",
+        "yourEmail": "Email của bạn",
+        "signUp": "Đăng ký"
     }
 }

@@ -23,7 +23,7 @@ const ProductCard = ({ productId, photos, name, price, stock, handler }: Product
     return (
         <div className="product-card">
             <div className="product-image">
-                <Link to={`product/${productId}`}><img src={photos?.[0].url} alt={name} /></Link>
+                <Link to={`iphone/${productId}`}><img src={photos?.[0].url} alt={name} /></Link>
             </div>
             <div className="product-content">
                 <h2 className="product-name">{name}</h2>

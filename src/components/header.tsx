@@ -9,7 +9,7 @@ import { FiSearch } from "react-icons/fi";
 
 const Header = () => {
 
-    const { t, i18n } = useTranslation('header')
+    const { t, i18n } = useTranslation(['header'])
     const [isOpen, setIsOpen] = useState<boolean>(false);
     const [isOpenSearch, setIsOpenSearch] = useState<boolean>(false);
 
